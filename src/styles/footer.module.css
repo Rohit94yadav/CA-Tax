@@ -1,0 +1,9 @@
+.fir{
+    list-style: disc inside url("../components/assets/rig.png");
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.fir>li{
+    margin-top: 10px;
+}
