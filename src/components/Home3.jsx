@@ -14,6 +14,7 @@ export default function Home3() {
 
     return (
         <Box>
+            
             <Flex padding={{base:"14px 8%", lg:"39px 13%"}} direction={{base:"column", lg:"row"}} backgroundColor="#F4F4F4">
                 <Flex direction="column" textAlign="left" w={{base:"100%", lg:"50%"}} fontFamily="'Poppins', sans-serif">
                     <Text color="#FFB91D" fontSize={{base:"13px", md:"23px"}} as="b">About Us</Text>

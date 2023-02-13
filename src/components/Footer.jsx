@@ -62,37 +62,37 @@ export default function Footer() {
                 </Grid>
                 <Button backgroundColor="#FFB91D" fontSize={{base:"9px", lg:"16px"}} mt="25px" w={{base:"103px",lg:"191px"}} h={{base:"31px",lg:"57px"}}>SEE ALL SERVICE</Button>
                 <Text color="white" textAlign="left" mt="25px" fontWeight="700" w="135px" borderBottom="2px solid #FFB91D">TOOLS</Text>
-                <Grid color="white" templateColumns={{base:"repeat(1,1fr)",lg:"repeat(5,1fr)"}} paddingBottom={{base:"12px", lg:"25px"}} borderBottom="2px solid #292C30">
-                    <ul className={style.fir}>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                    </ul>
-                    <ul className={style.fir}>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                    </ul>
-                    <ul className={style.fir}>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                    </ul>
-                    <ul className={style.fir}>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                    </ul>
-                    <ul className={style.fir}>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                        <li><Link to="#">Lorem Ipsum Dolor</Link></li>
-                    </ul>
+                <Grid color="white" gap="10px" fontFamily="'Poppins', sans-serif" templateColumns={{base:"repeat(1,1fr)",lg:"repeat(5,1fr)"}}  mt="13px" paddingBottom={{base:"12px", lg:"25px"}} borderBottom="2px solid #292C30">
+                    <Flex direction="column" gap="10px" alignItems="flex-start">
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                    </Flex>
+                    <Flex direction="column" gap="10px" alignItems="flex-start">
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                    </Flex>
+                    <Flex direction="column" gap="10px" alignItems="flex-start">
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                    </Flex>
+                    <Flex direction="column" gap="10px" alignItems="flex-start">
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                    </Flex>
+                    <Flex direction="column" gap="10px" alignItems="flex-start">
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                        <Link to="#">Lorem Ipsum Dolor</Link>
+                    </Flex>
                 </Grid>
                 <Flex mt={{base:"30px", lg:"20px"}} color="white" gap="20px" direction={{base:"column", lg:"row"}}>
                     <Flex direction="column" gap="10px" w={{base:"100%", lg:"30%"}}>
